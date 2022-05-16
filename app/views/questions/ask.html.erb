@@ -1,0 +1,9 @@
+<h1 class="ms-5 mt-3">hello</h1>
+<form action="/answer" class="btn btn-outline-info ms-5" method="get">
+  <input type="text"
+  name="question"
+  value="<%= params[:question] %>"
+  placeholder="what is your question">
+  <input class="btn btn-outline-dark" class="fw-normal" type="submit" value="Ask!"
+  <% link_to "ask", ask_path %>>
+</form>
